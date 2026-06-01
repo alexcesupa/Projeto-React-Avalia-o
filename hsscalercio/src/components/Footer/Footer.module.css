@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px clamp(18px, 5vw, 72px);
+  color: #dce7ef;
+  background: #3a1014;
+}
+
+.footer strong {
+  color: #ffffff;
+}
+
+.footer p {
+  margin: 8px 0 0;
+}
+
+.footer address {
+  max-width: 460px;
+  font-style: normal;
+  line-height: 1.7;
+  text-align: right;
+}
+
+@media (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer address {
+    text-align: left;
+  }
+}

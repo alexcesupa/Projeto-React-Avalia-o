@@ -1,0 +1,22 @@
+.title {
+  max-width: 720px;
+  margin-bottom: 28px;
+}
+
+.title span {
+  color: #c0181f;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.title h2 {
+  margin: 8px 0 0;
+  color: #2d0b0f;
+  font-size: clamp(1.8rem, 3vw, 3rem);
+}
+
+.title p {
+  margin: 12px 0 0;
+  color: #5d6b7c;
+  line-height: 1.7;
+}

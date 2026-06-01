@@ -1,0 +1,50 @@
+.products {
+  padding: clamp(42px, 6vw, 82px) clamp(18px, 5vw, 72px);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 18px;
+  align-items: center;
+  margin-top: 26px;
+  padding: 26px;
+  color: #ffffff;
+  background: #3a1014;
+  border-radius: 8px;
+}
+
+.cta h3,
+.cta p {
+  margin: 0;
+}
+
+.cta p {
+  color: #d8e3ec;
+  margin-top: 8px;
+}
+
+.cta button {
+  min-height: 48px;
+  padding: 0 18px;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 800;
+  background: #c0181f;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 860px) {
+  .grid,
+  .cta {
+    grid-template-columns: 1fr;
+  }
+}

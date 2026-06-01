@@ -1,0 +1,9 @@
+.app {
+  min-height: 100vh;
+  color: #18212f;
+  background: #f6f8fb;
+}
+
+main {
+  min-height: 68vh;
+}
